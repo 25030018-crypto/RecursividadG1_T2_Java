@@ -14,7 +14,11 @@ public class Recursividad {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.println("Factorial de 5: "
+                + Recursiones.factorial(5));
+
+        System.out.println("Suma de 5: "
+                + Recursiones.suma(5));  
     }
     
 }
